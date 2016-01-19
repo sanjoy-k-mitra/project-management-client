@@ -39,8 +39,8 @@ export function performLogin(action){
     return dispatch=>{
         dispatch(requestLogin(action))
         let data = {
-            clientId: config.clientId,
-            clientSecret: config.clientSecret,
+            client_id: config.clientId,
+            client_secret: config.clientSecret,
             username: action.username,
             password: action.password,
             grant_type: "password",

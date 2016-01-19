@@ -21,11 +21,11 @@ export const PureAuth = React.createClass({
     render: function(){
         return <form role="form" className="col-md-6 col-md-offset-3">
             <div className="form-group">
-                <label>username</label>
+                <label>Username</label>
                 <input type="text" name="username" className="form-control" onChange={this.valueChanged}/>
             </div>
             <div className="form-group">
-                <label>password</label>
+                <label>Password</label>
                 <input type="password" name="password" className="form-control" onChange={this.valueChanged}/>
             </div>
             <div>
